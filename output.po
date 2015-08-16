@@ -1957,23 +1957,23 @@ msgstr "The email has not come yet. Check again in a few minutes."
 
 #: editor/index.php:71
 msgid "CAMPAIGN TYPE"
-msgstr "тип рассылки"
+msgstr "CAMPAIGN TYPE"
 
 #: editor/index.php:73
 msgid "LETTER DESIGN"
-msgstr "дизайн письма"
+msgstr "LETTER DESIGN"
 
 #: editor/index.php:75
 msgid "RECIPIENTS"
-msgstr "получатели"
+msgstr "RECIPIENTS"
 
 #: editor/index.php:77
 msgid "SETUP"
-msgstr "настроить"
+msgstr "SETUP"
 
 #: editor/index.php:79
 msgid "CHECK"
-msgstr "проверить"
+msgstr "CHECK"
 
 #: editor/index.php:85
 msgid "Exit without saving"
@@ -2049,7 +2049,7 @@ msgstr "Image, text, social"
 
 #: editor/index.php:166
 msgid "Maps"
-msgstr "Cartography"
+msgstr "Maps"
 
 #: editor/index.php:169
 msgid "Unsubscribe link"
@@ -2069,7 +2069,7 @@ msgstr "Images filemanager"
 
 #: editor/index.php:417
 msgid "Upload"
-msgstr "upload your list"
+msgstr "Upload"
 
 #: editor/index.php:422
 msgid "Import URL"
