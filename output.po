@@ -1961,11 +1961,11 @@ msgstr "тип рассылки"
 
 #: editor/index.php:73
 msgid "LETTER DESIGN"
-msgstr "дизайн письма"
+msgstr "LETTER DESIGN"
 
 #: editor/index.php:75
 msgid "RECIPIENTS"
-msgstr "получатели"
+msgstr "RECIPIENTS"
 
 #: editor/index.php:77
 msgid "SETUP"
@@ -1973,7 +1973,7 @@ msgstr "настроить"
 
 #: editor/index.php:79
 msgid "CHECK"
-msgstr "проверить"
+msgstr "SETUP"
 
 #: editor/index.php:85
 msgid "Exit without saving"
