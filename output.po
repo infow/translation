@@ -22,7 +22,7 @@ msgstr "[A/B] Untitled"
 
 #: wizard_split.php:269 classes/lists.php:211
 msgid "Без Названия"
-msgstr "(Untitled)"
+msgstr "Untitled"
 
 #: wizard_new/step3.php:169 wizard_new/step3.php:378 wizard/step3.php:35 wizard_split/step2.php:211 wizard_split/step2.php:401
 msgid "Отправить по всем базам"
@@ -30,18 +30,18 @@ msgstr "Sent to all lists"
 
 #: wizard_new/step3.php:169 wizard_new/step3.php:378 wizard/step3.php:35 wizard_split/step2.php:211 wizard_split/step2.php:401
 msgid "Выбор баз"
-msgstr "Selecting  lists"
+msgstr "Select list"
 
 #: wizard_new/step3.php:170 wizard_new/step3.php:377 wizard_split/step2.php:212 wizard_split/step2.php:400
 msgid "по какой адресной базе вы хотите произвести рассылку?"
-msgstr "what address basis do you want to use for your campaign?"
+msgstr "what list do you want to use for your campaign?"
 
 #: wizard_new/step3.php:177 wizard_new/step3.php:379 wizard/step3.php:39 wizard_split/step2.php:219 wizard_split/step2.php:402
 msgid ""
 "Внимание! При отправке по нескольким базам для успешной подстановки тегов у всех этих баз поля должны быть определены одинаково и в одном "
 "порядке."
 msgstr ""
-"Attention! When sending on the basis of several lists to  substitute tags  all of these lists of the field must be defined the same way "
+"Attention! When sending to several lists, for succesful  substitution of tags,  all fields in these lists should be defined the same way "
 "and in the same order."
 
 #: wizard_new/step3.php:218 wizard_new/step3.php:390 wizard/step3.php:46 classes/campaigns.php:391 wizard_split/step2.php:254
@@ -52,7 +52,7 @@ msgstr "All lists"
 #: wizard_new/step3.php:221 wizard_new/step3.php:273 wizard_new/step3.php:387 wizard_new/step3.php:415 wizard/step3.php:51
 #: wizard/step3.php:90 wizard_split/step2.php:264 wizard_split/step2.php:328 wizard_split/step2.php:411 wizard_split/step2.php:436
 msgid "отправить по сегменту"
-msgstr "Send by segment"
+msgstr "Send to segment"
 
 #: wizard_new/step3.php:319 wizard_new/step3.php:358 wizard_new/step3.php:431 wizard_new/step4.php:271 wizard_new/step4.php:461
 #: builder_2.0/header.php:20 wizard_split/step2.php:381 wizard_split/step2.php:451 templates/header_wizard_new.php:145
@@ -71,7 +71,7 @@ msgstr "go to the next step"
 #: wizard_new/step1a.php:16 wizard/step1a.php:16 wizard_split/step2.php:367 wizard_split/step2.php:382 wizard_split/step2.php:392
 #: wizard_split/step2.php:452
 msgid "Вы должны задать хотя бы 1 базу."
-msgstr "You must specify at least one list."
+msgstr "You must select at least one list."
 
 #: wizard_new/step3.php:362 wizard_new/step4.php:275 wizard_new/step1a.php:429 wizard/header.php:8 wizard/header.php:114 wizard/step1a.php:85
 #: builder_2.0/header.php:46 templates/header_wizard.php:529 templates/header_wizard_new.php:188 templates/autocampaigns/autocampaigns.php:37
