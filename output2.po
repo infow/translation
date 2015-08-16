@@ -678,7 +678,7 @@ msgstr "%UNSUBSCRIBE%"
 
 #: wizard_new/step5.php:631
 msgid "внизу письма. Например, \"Вы можете отписаться от получения рассылок по ссылке %ОТПИСАТЬСЯ%\"."
-msgstr "at the bottom of the email. For example, \"You can unsubscribe from campaign with the %UNSUBSCRIBE% link."
+msgstr "at the bottom of the email. For example, \"You can unsubscribe from campaign with the %UNSUBSCRIBE%\" link."
 
 #: wizard_new/step5.php:651 wizard_split/step3.php:113
 msgid "Подтверждение отправки"
@@ -3066,7 +3066,7 @@ msgstr "Normally"
 
 #: wizard/action/send-test.php:115 templates/campaigns/send-test.php:111 templates_orig/campaigns/send-test.php:111
 msgid "(Плохо!)"
-msgstr "Poor"
+msgstr "(Poor!)"
 
 #: wizard/action/send-test.php:118 templates/campaigns/send-test.php:114 templates_orig/campaigns/send-test.php:114
 msgid ""
@@ -3150,11 +3150,11 @@ msgstr "Do you send a lot of tests?"
 
 #: wizard/footer.php:31
 msgid ""
-"Тестирование письма - это очень хорошее дело, однако, есть некоторые лимиты на число тестовых писем, которые вы можете отправить. <a href="
-"\"#\">Узнать подробнее</a>"
+"Тестирование письма - это очень хорошее дело, однако, есть некоторые лимиты на число тестовых писем, которые вы можете отправить. <a href
+=""\"#\">Узнать подробнее</a>"
 msgstr ""
-"Testing of the email - this is a very good thing, but there are some limits on the number of test emails that you can send. <a href=\"#"
-"\">Learn more</a>"
+"Testing of the email - this is a very good thing, but there are some limits on the number of test emails that you can send. <a href
+=""\"#\">Learn more</a>"
 
 #: wizard/footer.php:37
 msgid "Отправить тест на"
@@ -3214,7 +3214,7 @@ msgstr "Preparing for start"
 
 #: builder_2.0/proxy.php:84 builder_2.0/preview.php:123
 msgid " Чтобы больше никогда не получать наши рассылки перейдите по следующей ссылке: %ОТПИСАТЬСЯ%"
-msgstr "In order not to receive our newsletters anymore, click on the following link: %Unsubscribe%%"
+msgstr "In order not to receive our newsletters anymore, click on the following link: %Unsubscribe%"
 
 #: builder_2.0/html_functions.php:33 builder_2.0/index.php:1100
 msgid "Задайте краткое описание содержимого письма"
@@ -3274,7 +3274,7 @@ msgstr "Email header"
 
 #: builder_2.0/index.php:57
 msgid "Вы уверены, что хотите загрузить этот шаблон? Вся информация о текущем будет уничтожена."
-msgstr "Are you sure you want to upload this templater? All the current information will be deleted"
+msgstr "Are you sure you want to upload this template? All the current information will be deleted"
 
 #: builder_2.0/index.php:58
 msgid "Название дизайна:"
@@ -3720,7 +3720,8 @@ msgstr "unsubscribe "
 msgid ""
 "Теперь вы можете добавлять в теги значения, которые будут подставляться по умолчанию, если соответствующее поле у получателя не заполнено. "
 "Например, %ИМЯ{Иван}%"
-msgstr "Now you can add the words to  tags  that will be substituted by default, unless the  field is not blank. For example, %{NAME}% Ivan"
+msgstr "Now you can add the words to  tags  that will be substituted by default, unless the  field is not blank. For example,
+"%NAME{John}%"
 
 #: builder_2.0/index.php:1549
 msgid "Добавить ссылку"
@@ -3756,9 +3757,8 @@ msgid ""
 "В рассылках должна быть указана информация о том, откуда был взят адрес пользователя и его согласие на получение рассылки.<br /><br /"
 ">Например, «Вы получили это письмо, потому что подписались на рассылку на нашем сайте www.адрес сайта.ru»."
 msgstr ""
-"The campaigns must contain information about where the user address was taken  from and his/her consent to receive the newsletter from you."
-"<br /> <br />For example, \"You are receiving this email because  you have subscribed to our newsletters on our website www.adres site. ru "
-"»."
+"The campaigns must contain information about where the user address was taken from and his/her consent to receive the newsletter from you.
+<br/> <br/>For example, "You are receiving this email because  you have subscribed to our newsletters on our website www.site.com».""
 
 #: builder_2.0/index.php:1605 builder_2.0/index.php:1606
 msgid "Галерея фоновых изображений"
@@ -4079,7 +4079,7 @@ msgstr "I found a newsletter, that has better quality of materials"
 
 #: wizard.php:51
 msgid "Не ваша рассылка"
-msgstr "A/B campaign subject:"
+msgstr "Wrong campaign"
 
 #: check1.php:9 check1.php:12
 msgid "Некорректный email"
@@ -4964,7 +4964,7 @@ msgstr "When you send more campaigns via this list, we show how this list is con
 #: templates/reports/summary_base.php:530 templates/reports/summary_base.php:553 templates/reports/summary_base.php:576
 #: templates/reports/summary_base.php:600
 msgid "all bases"
-msgstr "Wall Street"
+msgstr "all bases"
 
 #: templates/reports/summary_base.php:161 templates/reports/summary_base.php:187 templates/reports/summary_base.php:213
 #: templates/reports/summary_base.php:239 templates/reports/summary_base.php:266 templates/reports/summary_base.php:506
@@ -7277,7 +7277,7 @@ msgid ""
 "При их использовании вы все так же можете задавать свой обратный адрес в поле \"От Кого\" (например, info@yourcompany.ru), но некоторые "
 "email-клиенты, вроде Outlook или Gmail добавляют уточнение в адрес отправителя. Вот как это может выглядеть:"
 msgstr ""
-"When using them, you can still set your return address in the \"from\" field (for example, info@yourcompany.ru), but some email clients, "
+"When using them, you can still set your return address in the \"from\" field (for example, info@yourcompany.com), but some email clients, "
 "like Outlook or Gmail add specifics to the address of the sender. Here's how it might look:"
 
 #: templates/account/domain.php:185 templates_orig/account/domain.php:134
