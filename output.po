@@ -4391,7 +4391,7 @@ msgstr "closed"
 
 #: wizard_split/step2.php:385
 msgid "Создатель Рассылки"
-msgstr "A/B campaign creator"
+msgstr "A/B campaign builder"
 
 #: wizard_split/geo.php:11
 msgid "Выберете регионы:"
@@ -4687,7 +4687,7 @@ msgstr "Log out"
 
 #: templates/header_wizard.php:529 templates/header_wizard_new.php:8 templates_orig/header_wizard_new.php:8
 msgid "Создатель"
-msgstr "Creator"
+msgstr "Builder"
 
 #: templates/header_wizard_new.php:8 templates_orig/header_wizard_new.php:8
 msgid "Автор"
@@ -9328,7 +9328,7 @@ msgstr "Rate our service with a single click"
 
 #: templates/header_wizard_split.php:9 templates_orig/header_wizard_split.php:8
 msgid "Создатель Сплит-рассылки"
-msgstr "A/B campaign creator"
+msgstr "A/B campaign builder"
 
 #: templates/lists/members.php:8 templates_orig/lists/members.php:6
 msgid "Подписчик успешно скопирован"
@@ -11790,7 +11790,7 @@ msgstr "Everything you type in these fields will not be saved."
 
 #: templates_orig/header_wizard.php:8
 msgid "Создатель рассылки"
-msgstr "Campaign creator"
+msgstr "Campaign builder"
 
 #: templates_orig/header_wizard.php:135
 msgid "какую рассылку необходимо отправить"
