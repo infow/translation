@@ -1552,7 +1552,7 @@ msgstr "Copy to clipboard"
 #: wizard_new/step2t.php:169 builder_2.0/index.php:581 builder_2.0/index.php:881 builder_2.0/index.php:1438 builder_2.0/action/add.php:22
 #: templates/lists/confsub.php:181 templates/lists/confsub.php:332 builder/index.php:131 templates_orig/lists/confsub.php:82
 msgid "Заголовок"
-msgstr "Heading"
+msgstr "Header"
 
 #: wizard_new/step2t.php:172 builder_2.0/index.php:582 builder_2.0/index.php:886 builder_2.0/index.php:1439 builder_2.0/action/add.php:23
 #: templates/lists/confsub.php:184 templates/lists/confsub.php:335 templates_orig/lists/confsub.php:85
@@ -2081,7 +2081,7 @@ msgstr "Folders"
 
 #: editor/index.php:448
 msgid "Add"
-msgstr "Android"
+msgstr "Add"
 
 #: editor/index.php:451
 msgid "Edit"
@@ -2325,19 +2325,19 @@ msgstr "This email  is not registered in the system"
 
 #: common/auth_new.php:166
 msgid "Retype code on image."
-msgstr "Введите код с картинки зановою"
+msgstr "Retype code on image."
 
 #: common/auth_new.php:167
 msgid "Incorrect email."
-msgstr "E-mail указан неверно."
+msgstr "Incorrect email."
 
 #: common/auth_new.php:168
 msgid "Password must contain at least 6 symbols"
-msgstr "Пароль должен содержать как минимум 6 символов"
+msgstr "Password must contain at least 6 symbol"
 
 #: common/auth_new.php:169
 msgid "Fill all fields."
-msgstr "Заполните все поля"
+msgstr "Fill all fields."
 
 #: common/mh_new.php:6
 msgid "Activate your account at Mailwheel.co.uk"
@@ -2357,7 +2357,7 @@ msgstr "Press the big button below to activate your account at Mailwheel."
 
 #: common/mh_new.php:45
 msgid "Activate account"
-msgstr "Standart account"
+msgstr "Activate account"
 
 #: common/mh_new.php:65
 msgid "© 2011-2015 MaiWheel.co.uk"
@@ -2373,7 +2373,7 @@ msgstr "Password recovery"
 
 #: common/mh_new.php:93
 msgid "Hello,"
-msgstr "Hello"
+msgstr "Hello,"
 
 #: common/mh_new.php:93
 msgid "Your new password:"
@@ -3328,7 +3328,7 @@ msgstr "leveling"
 #: builder_2.0/index.php:339 builder_2.0/index.php:388 builder_2.0/index.php:427 builder_2.0/index.php:458 builder_2.0/index.php:479
 #: builder_2.0/index.php:505
 msgid "слева"
-msgstr " left"
+msgstr "left"
 
 #: builder_2.0/index.php:339 builder_2.0/index.php:427 builder_2.0/index.php:458 builder_2.0/index.php:479 builder_2.0/index.php:505
 msgid "по центру"
@@ -4319,7 +4319,7 @@ msgstr ""
 #: templates/reports/summary2.php:258 templates/reports/splitreport.php:343 templates_orig/reports/summary_base.php:220
 #: templates_orig/reports/summary.php:244 templates_orig/reports/splitreport.php:165
 msgid "доставлено"
-msgstr "delivered "
+msgstr "delivered"
 
 #: wizard_split/step4.php:234 templates/reports/summary_base.php:300 templates/reports/summary_base.php:618 templates/reports/summary.php:413
 #: templates/reports/summary2.php:263 templates/reports/splitreport.php:348 templates_orig/reports/summary_base.php:225
@@ -4375,7 +4375,7 @@ msgstr "Not enough right!"
 #: templates/reports/summary2.php:394 templates/reports/splitreport.php:386 templates_orig/reports/activity.php:106
 #: templates_orig/reports/summary_base.php:328 templates_orig/reports/summary.php:380 templates_orig/reports/splitreport.php:192
 msgid "Настройки вашего субаккаунта не позволяют просматривать отчеты."
-msgstr "Settings of your subaccount is not allows you to view this page."
+msgstr "Settings of your subaccount does not allow you to view this page."
 
 #: wizard_split/step2.php:229
 msgid "Check all"
