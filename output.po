@@ -109,11 +109,11 @@ msgstr "create a new list"
 
 #: wizard_new/step5.php:11 wizard_new/step5.php:14 wizard/step5.php:15 wizard/step5.php:18
 msgid "Недостаточно данных для рекомендации"
-msgstr "Insufficient data to recommend"
+msgstr "Insufficient data for recommendation"
 
 #: wizard_new/step5.php:24
 msgid " или "
-msgstr "or"
+msgstr " or "
 
 #: wizard_new/step5.php:43 templates/campaigns/split-manual.php:30 templates_orig/campaigns/split-manual.php:30
 msgid "отправить"
@@ -1443,9 +1443,9 @@ msgid ""
 "                    Sample text. Something to explain<br>\n"
 "                    <a href=\"#\">the meaning.</a>"
 msgstr ""
-"Campaigns is the place where your customers are.<br>\n"
-"                    Sample text. Something to explain<br>\n"
-"                    <a href=\"#\">the meaning.</a>"
+"Campaigns is the rocket site of your sales.<br>\n"
+"An email campaign is a coordinated set of email marketing messages delivered at intervals and designed to escalate a persuasive argument to purchase, subscribe, download, etc.<br>\n"
+"The content and design should be crafted so that each message builds on the previous, offering relevant new content, media, and links, without losing focus on the “call to action”."
 
 #: wizard_new/step2.php:501 new_templates/step2.php:501
 msgid "выбрать"
@@ -1769,7 +1769,7 @@ msgstr "In this campaign there are no links."
 
 #: wizard_new/step1a.php:327 wizard_new/step1a.php:602 wizard/step1a.php:258
 msgid "временные промежутки"
-msgstr "period"
+msgstr "time intervals"
 
 #: wizard_new/step1a.php:329 wizard_new/step1a.php:604 wizard/step1a.php:260
 msgid "В какое время после события должна сработать авторассылка?"
@@ -5800,7 +5800,7 @@ msgstr "Attention!"
 
 #: templates/campaigns/preview.php:125 templates_orig/campaigns/preview.php:125
 msgid "Для адекватного отображения ваше письмо не должно быть шире, чем 600 пикселей."
-msgstr "To be adequately displayed your email should not be more than 600 pixels."
+msgstr "Your email should not be more than 600 pixels in width."
 
 #: templates/campaigns/confirm-delete-campaign.php:21 templates_orig/campaigns/confirm-delete-campaign.php:21
 msgid "Вы уверены что хотите отменить эту рассылку?"
@@ -9627,8 +9627,7 @@ msgid ""
 "Импорт базы - трудоемкий процесс. Мы загружаем вашу базу, \"откиньтесь на спинку кресла и расслабьтесь\" (с) Microsoft. Не перезагружайте "
 "страницу! В самые кратчайшие сроки мы импортируем всех ваших подписчиков."
 msgstr ""
-"Import list-a laborious process. We load your list, \"sit back and relax\" (c) Microsoft. Do not restart the page! In the shortest "
-"possible time we import all your subscribers."
+"We are loading your list, do not refresh this page! In the shortest possible time we import all your subscribers."
 
 #: templates/lists/_import.php:363 templates/lists/import.php:322
 msgid "А также, вы можете импортировать контакты из"
@@ -9667,16 +9666,16 @@ msgstr "New list of my store"
 #: templates/lists/create-new-list.php:14 templates/lists/confirm-rename.php:14 templates_orig/lists/create-new-list.php:13
 #: templates_orig/lists/confirm-rename.php:14
 msgid "Хороший пример названия: \"Магазин на Приморской\" - Плохой пример названия: \"Prim_12_03_2011\""
-msgstr "A good example of names: \"shop at the seaside\"-bad example names: \"Prim_12_03_2011\""
+msgstr "A good example of names: \"shop at the seaside\"-bad example names: \"12_03\""
 
 #: templates/lists/add.php:34 templates/lists/add.php:301 templates_orig/lists/add.php:34
 msgid "Пользователь должен дать согласие на добавление в Адресную базу."
-msgstr "The user must agree to add in the list."
+msgstr "The user must agree to be added in the list."
 
 #: templates/lists/add.php:48 templates/lists/add.php:128 templates/lists/add.php:311 templates/lists/add.php:367 templates/lists/add.php:488
 #: templates_orig/lists/add.php:46
 msgid "Добавить подписчика в базу"
-msgstr "Add new subscriber to "
+msgstr "Add new subscriber to"
 
 #: templates/lists/add.php:64
 msgid "Your list"
@@ -12292,15 +12291,15 @@ msgstr "Dear Customer,"
 
 #: new-user.php:216
 msgid "в сервисе рассылки электронной почты"
-msgstr "In this campaign there is no links."
+msgstr "please fill this form."
 
 #: new-user.php:217
 msgid "Настройте ваш аккаунт за"
-msgstr "login as customer"
+msgstr "For less"
 
 #: new-user.php:217
 msgid "30 секунд"
-msgstr "30 seconds"
+msgstr "then 30 seconds"
 
 #: new-user.php:222
 msgid "Имя и Адрес"
