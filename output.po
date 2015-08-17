@@ -26,11 +26,11 @@ msgstr "Untitled"
 
 #: wizard_new/step3.php:169 wizard_new/step3.php:378 wizard/step3.php:35 wizard_split/step2.php:211 wizard_split/step2.php:401
 msgid "Отправить по всем базам"
-msgstr "Send to all lists"
+msgstr "Sent to all lists"
 
 #: wizard_new/step3.php:169 wizard_new/step3.php:378 wizard/step3.php:35 wizard_split/step2.php:211 wizard_split/step2.php:401
 msgid "Выбор баз"
-msgstr "Select  a list"
+msgstr "Select list"
 
 #: wizard_new/step3.php:170 wizard_new/step3.php:377 wizard_split/step2.php:212 wizard_split/step2.php:400
 msgid "по какой адресной базе вы хотите произвести рассылку?"
@@ -92,7 +92,7 @@ msgstr "Builder"
 
 #: wizard_new/step3.php:364 wizard_split/step2.php:387
 msgid "Вы не можете создать рассылку, пока у вас нет ни одной адресной базы!"
-msgstr "You can not create a campaign, unless you have a list!"
+msgstr "You can not create a campaign, unless you have no list!"
 
 #: wizard_new/step3.php:369 wizard_new/step4.php:279 wizard_new/step1a.php:433 wizard/step1a.php:89 wizard_split/step2.php:392
 #: templates/header_wizard.php:542
@@ -141,7 +141,7 @@ msgstr "send a test email to the following address:"
 
 #: wizard_new/step5.php:86 wizard_new/step2t.php:354
 msgid "Если хотите отправить несколько тестовых писем, то разделяйте адрес через запятую."
-msgstr "If you want to send several test emails, separate each address with a comma."
+msgstr "If you want to send some test emails, separate each address with a comma."
 
 #: wizard_new/step5.php:86
 msgid "Не больше 6 за раз и не больше 12-ти тестовых писем на созданную рассылку"
@@ -168,7 +168,7 @@ msgid ""
 "Одно или несколько писем было отправлено на ящики, которые расположены на том же домене, что и отправитель. Некоторые провайдеры блочат "
 "такие письма самому себе. Если что - проверьте папку \"Спам\"."
 msgstr ""
-"One or several emails were sent to the email addresses which are on the same domain with the sender. Some providers could block such emails. In this "
+"One or more emails were sent to the mail boxes which are on the same domain as the sender. Some providers could block such emails. In this "
 "case check \"Spam\" folder"
 
 #: wizard_new/step5.php:96
@@ -182,58 +182,58 @@ msgstr "send another test message?"
 #: wizard_new/step5.php:147 data/export.php:28 templates/lists/unisender.php:68 templates/lists/mailchimp.php:69
 #: templates_orig/lists/include/lists-header.php:24 templates_orig/lists/unisender.php:66 templates_orig/lists/mailchimp.php:67
 msgid "База"
-msgstr "list"
+msgstr "List"
 
 #: wizard_new/step5.php:156 wizard/step5.php:198 templates/autocampaigns/autocampaigns-list.php:60
 #: templates_orig/autocampaigns/autocampaigns-list.php:61
 msgid "в День Рождения после "
-msgstr "On birthday after"
+msgstr "After birthday "
 
 #: wizard_new/step5.php:158 common/php_functions.php:759 wizard/step5.php:200 templates/autocampaigns/autocampaigns-list.php:62
 #: templates_orig/autocampaigns/autocampaigns-list.php:63
 msgid "за "
-msgstr "for"
+msgstr "on "
 
 #: wizard_new/step5.php:158 wizard/step5.php:200
 msgid " до Дня Рождения после "
-msgstr "before birthday after"
+msgstr " before birthday after "
 
 #: wizard_new/step5.php:160 common/php_functions.php:759 wizard/step5.php:202 templates/autocampaigns/autocampaigns-list.php:64
 #: templates_orig/autocampaigns/autocampaigns-list.php:65
 msgid "через "
-msgstr "via"
+msgstr "via "
 
 #: wizard_new/step5.php:160 wizard/step5.php:202
 msgid " после Дня Рождения после "
-msgstr "After birthday after"
+msgstr " after birthday "
 
 #: wizard_new/step5.php:173 wizard/step5.php:215
 msgid " подписки через форму"
-msgstr "subscription via form"
+msgstr " subscription via form"
 
 #: wizard_new/step5.php:174 wizard/step5.php:216
 msgid " ручного добавления"
-msgstr "adding manually"
+msgstr " manually add"
 
 #: wizard_new/step5.php:175 wizard/step5.php:217
 msgid " импорта базы"
-msgstr "list import"
+msgstr " list import"
 
 #: wizard_new/step5.php:178 wizard/step5.php:220
 msgid "измененния доп. полей"
-msgstr "Change additional fields"
+msgstr "Change additional fileds"
 
 #: wizard_new/step5.php:186 wizard/step5.php:228
 msgid "открытия рассылок"
-msgstr "Opened newsletters"
+msgstr "Opened"
 
 #: wizard_new/step5.php:187 wizard/step5.php:229
 msgid "перехода по ссылкам из рассылок"
-msgstr "campaign clickthroughs"
+msgstr "links from campaigns"
 
 #: wizard_new/step5.php:188 wizard/step5.php:230
 msgid "перехода по ссылкам из рассылки"
-msgstr "campaign clickthroughs"
+msgstr "links from the campaign"
 
 #: wizard_new/step5.php:189 wizard/step5.php:231
 msgid "Мы будем отправлять ваши письма"
@@ -249,7 +249,7 @@ msgstr "new"
 
 #: wizard_new/step5.php:190 wizard/step5.php:232
 msgid "подписчикам из адресных баз:"
-msgstr "subscribers from lists:"
+msgstr "subscribers of lists:"
 
 #: wizard_new/step5.php:190 wizard_new/step5.php:215 wizard_new/step5.php:656 wizard/step5.php:232 wizard/step5.php:255 wizard/footer.php:229
 #: wizard_split/step3.php:116
@@ -258,23 +258,23 @@ msgstr "All lists"
 
 #: wizard_new/step5.php:192 wizard/step5.php:234
 msgid " c задержкой"
-msgstr "with delay"
+msgstr " with delay"
 
 #: wizard_new/step5.php:193 wizard/step5.php:235
 msgid "Также мы "
-msgstr "Also we"
+msgstr "Also we "
 
 #: wizard_new/step5.php:193 wizard/step5.php:235
 msgid " отправим рассылку по существующей базе."
-msgstr "Send newsemail to your existing list."
+msgstr " send newsemail to your existing list."
 
 #: wizard_new/step5.php:209 wizard/step5.php:251
 msgid "выбрано ссылок: "
-msgstr "selected links:"
+msgstr "selected links: "
 
 #: wizard_new/step5.php:213 wizard/step5.php:255
 msgid "Мы отправим ваши письма по"
-msgstr "We will send your emails using"
+msgstr "We will send your emails to"
 
 #: wizard_new/step5.php:213 wizard/step5.php:255
 msgid "сегментам баз:"
@@ -290,11 +290,11 @@ msgstr "recipients"
 
 #: wizard_new/step5.php:224
 msgid "Рекомендуемое время отправки письма по этой базе:"
-msgstr "Recommended time to send an email using this list:"
+msgstr "Recommended time to send an email on this list:"
 
 #: wizard_new/step5.php:228 wizard/step5.php:257
 msgid "Вы не задали адресную базу получателей."
-msgstr "You have not set a list of recipients."
+msgstr "You have not set the list of recipients."
 
 #: wizard_new/step5.php:234 wizard_new/step5.php:255 wizard_new/step5.php:285 wizard_new/step5.php:315 wizard_new/step5.php:348
 #: wizard_new/step5.php:368 wizard_new/step5.php:428 wizard/step5.php:261 wizard/step5.php:276 wizard/step5.php:292 wizard/step5.php:318
@@ -309,7 +309,7 @@ msgstr "Subject line:"
 
 #: wizard_new/step5.php:251 wizard/step5.php:273
 msgid "Вы не задали тему сообщения."
-msgstr "You did not select a subject."
+msgstr "You did not specify a subject."
 
 #: wizard_new/step5.php:276 wizard/step5.php:286 wizard_split/step3.php:38 wizard_split/step3.php:72 templates/campaigns/preview.php:114
 #: templates_orig/campaigns/preview.php:114
@@ -318,7 +318,7 @@ msgstr "Reply To:"
 
 #: wizard_new/step5.php:279
 msgid "Все ответы на ваши письма будут уходить на адрес"
-msgstr "All the answers to your emails will be sent to the address"
+msgstr "All the answers to your emails will sent to the address"
 
 #: wizard_new/step5.php:280 wizard/step5.php:289
 msgid "Не задано имя отправителя"
@@ -346,15 +346,15 @@ msgstr "click tracking in the text version"
 
 #: wizard_new/step5.php:305 wizard/step5.php:308
 msgid "аналитику "
-msgstr "analytics"
+msgstr "analytics "
 
 #: wizard_new/step5.php:308 wizard/step5.php:311
 msgid "При отправке только plain-text версии письма статистики открываний и переходов по ссылкам недоступны."
-msgstr "If you send only a plain-text version of the email, statistics openings and clicks are unavailable."
+msgstr "If you send only plain-text version of the email, statistics openings and clicks are unavailable."
 
 #: wizard_new/step5.php:310 wizard/step5.php:313
 msgid "Вы выбрали "
-msgstr "You selected:"
+msgstr "You chose:"
 
 #: wizard_new/step5.php:310 wizard/step5.php:313
 msgid "Никаких аналитических функций вы не подключили"
@@ -390,7 +390,7 @@ msgstr "You have not created html-version of the email. Only plain-text-version 
 
 #: wizard_new/step5.php:344 wizard/step5.php:342
 msgid "Вы не создали письмо."
-msgstr "You have not created an email."
+msgstr "You have not created email."
 
 #: wizard_new/step5.php:362 wizard/step5.php:355
 msgid "Текстовая версия письма:"
@@ -417,16 +417,16 @@ msgid "Получить рекомендации по исправлению"
 msgstr "Get recommendations on correction"
 
 #: wizard_new/step5.php:388
-msgid "проверка"
-msgstr "check"
+msgid " проверка"
+msgstr " check"
 
 #: wizard_new/step5.php:407 wizard/step5.php:90
 msgid " в html-версию письма"
-msgstr "in the html version of the email"
+msgstr " in the html version of the email"
 
 #: wizard_new/step5.php:410 wizard/step5.php:93
 msgid " в текстовой версии письма"
-msgstr "in the text version of the email"
+msgstr " in the text version of the email"
 
 #: wizard_new/step5.php:422 wizard/step5.php:382
 msgid "Ссылка \"отписаться\" для получателей"
@@ -438,7 +438,7 @@ msgstr "You"
 
 #: wizard_new/step5.php:424 wizard/step5.php:384
 msgid "не "
-msgstr "did not"
+msgstr "did not "
 
 #: wizard_new/step5.php:424 wizard/step5.php:384
 msgid "включили ссылку \"отписаться\" для своих получателей"
@@ -446,7 +446,7 @@ msgstr "including link \"unsubscribe\" for recipients"
 
 #: wizard_new/step5.php:424 wizard/step5.php:384
 msgid " и"
-msgstr "and"
+msgstr " and"
 
 #: wizard_new/step5.php:424
 msgid "Как это сделать?"
@@ -458,15 +458,15 @@ msgstr "Attached files"
 
 #: wizard_new/step5.php:445
 msgid "Можно добавить до "
-msgstr "You can add up"
+msgstr "You can add up "
 
 #: wizard_new/step5.php:445
 msgid " различных файлов к рассылке."
-msgstr "various files to the campaign."
+msgstr " various files to the campaign."
 
 #: wizard_new/step5.php:450
 msgid " [доступно только при оплате месячного тарифа или покупке писем]"
-msgstr "[available only if you pay for a monthly tarriff or purchase of emails]"
+msgstr " [available only if you pay monthly or purchase of emails]"
 
 #: wizard_new/step5.php:456 templates/reports/summary_base.php:455 templates/reports/summary2.php:97
 #: templates/autocampaigns/autocampaigns-list.php:48 templates/campaigns/campaigns-list.php:72 templates/lists/members.php:400
@@ -525,7 +525,7 @@ msgid ""
 "проверяет вашу email-рассылку на прохождение через фильтры Яндекса и Mail.ru. Это может занять продолжительное время - будьте терпеливы. В "
 "случае, если какие-то фильтры ваше письмо не проходит - мы рекомендуем поработать над контентом письма."
 msgstr ""
-"checks  your campaign for passing through the filters of Yahoo and Gmail.com. It may take a long time - be patient. If any  of your emails "
+"checks your campaign for passing through the filters of Yahoo and Gmail.com. It may take a long time - be patient. If any  of your emails "
 "does not pass the filters we recommend that you work on the content."
 
 #: wizard_new/step5.php:480
@@ -554,7 +554,7 @@ msgstr "in drafts"
 
 #: wizard_new/step5.php:503
 msgid "в архив"
-msgstr "to archive"
+msgstr "archive"
 
 #: wizard_new/step5.php:505 wizard_new/save_template.php:16 wizard/action/save_template.php:16 templates/campaigns/fix-info.php:87
 #: templates/account/contact.php:209 templates/account/sms-auth.php:76 templates/account/rights.php:105 templates/account/rights.php:122
@@ -903,7 +903,7 @@ msgstr "not clicked"
 #: wizard_split/segment.php:420 wizard_split/segment.php:451 wizard_split/segment.php:463 wizard_split/op_segments.php:37
 #: wizard_split/op_segments.php:58 wizard_split/op_segments.php:67 wizard_split/add_condition.php:53
 msgid "больше, чем"
-msgstr "bigger than"
+msgstr "more than"
 
 #: wizard_new/segment.php:111 wizard_new/segment.php:132 wizard_new/segment.php:140 wizard_new/segment.php:330 wizard_new/segment.php:351
 #: wizard_new/segment.php:359 wizard_new/op_segments.php:38 wizard_new/op_segments.php:59 wizard_new/op_segments.php:68
@@ -1146,7 +1146,7 @@ msgstr "Comment:"
 
 #: wizard_new/step4.php:229 wizard_new/step4.php:455
 msgid "У вас на сайте должна быть установлена Google Analytics/Яндекс.Метрика для использования этой функции."
-msgstr "Your must have Google Analytics  installed on your website to use this feature."
+msgstr "Your must have Google Analytics installed on your website to use this feature."
 
 #: wizard_new/step4.php:294
 msgid "назовите рассылку"
@@ -1170,7 +1170,7 @@ msgstr "tracing emails"
 
 #: wizard_new/step4.php:448
 msgid "Add Google Analytics™ to track URL's"
-msgstr "Add Google Analytics ™ to track URL's"
+msgstr "Add Google Analytics™ to track URL's"
 
 #: wizard_new/step4.php:452
 msgid "Заголовок для рассылки (будет отображаться в GA/ЯМ)"
@@ -1182,7 +1182,7 @@ msgstr "Email saved as template"
 
 #: wizard_new/step2.php:18 new_templates/step2.php:18
 msgid "Произошла ошибка. Попробуйте позже."
-msgstr "Oops! An  error occurred. Please try again later."
+msgstr "Oops! An error occurred. Please try again later."
 
 #: wizard_new/step2.php:38 new_templates/step2.php:38
 msgid "Все блочные css были заменены на inline styles"
@@ -1195,11 +1195,11 @@ msgstr "The template is uploaded with errors. Try again or contact support."
 #: wizard_new/step2.php:86 wizard_new/step2t.php:23 wizard_new/step2t.php:43 wizard_new/step2t.php:45 wizard_new/step2t.php:58
 #: templates/lists/blacklist-action.php:13 templates_orig/lists/blacklist-action.php:13
 msgid "Произошла ошибка. Попробуйте позже"
-msgstr "Oops! An  error occurred. Please try again later."
+msgstr "Oops! An error occurred. Please try again later."
 
 #: wizard_new/step2.php:111 new_templates/step2.php:110
 msgid "загрузить zip-архив"
-msgstr "upload zip-archive"
+msgstr "Upload zip-archive"
 
 #: wizard_new/step2.php:113 new_templates/step2.php:112
 msgid "загрузить из URL"
@@ -1250,7 +1250,7 @@ msgstr "Are you sure?"
 
 #: wizard_new/step2.php:182 wizard/step2.php:62 new_templates/step2.php:180
 msgid "Ссылка \"ОТПИСАТЬСЯ\""
-msgstr "Link  to \"unsubscribe\""
+msgstr "Link to \"unsubscribe\""
 
 #: wizard_new/step2.php:184 wizard/step2.php:67 new_templates/step2.php:182
 msgid "Все кампании должны включать ссылку с id=unsub_link. В текстовой версии эта ссылка помечается тэгом %ОТПИСАТЬСЯ%"
@@ -1384,7 +1384,7 @@ msgstr ""
 
 #: wizard_new/step2.php:256 wizard_new/step2.php:299 wizard_new/step2.php:377 wizard_new/step2.php:512
 msgid "back"
-msgstr "back"
+msgstr "Back"
 
 #: wizard_new/step2.php:258 wizard_new/step2.php:302 wizard_new/step2.php:380 wizard_new/step2.php:515
 msgid "next"
@@ -1480,8 +1480,8 @@ msgid ""
 "Пожалуйста, подождите, макет еще загружается. Не закрывайте страницу и не переходите по ссылкам. Страница будет обновлена автоматически, "
 "либо вы можете нажать на кнопку \"обновить\"."
 msgstr ""
-"Please wait while the layout is being uploaded.  Do not close this page or follow links. The page will be updated automatically, or you "
-"can press the \"Update\" button."
+"Please wait while the layout is being uploaded. Do not close this page or follow links. The page will be updated automatically, or you "
+"can press the \"Refresh\" button."
 
 #: wizard_new/step2.php:534 new_templates/step2.php:534
 msgid "обновить"
@@ -1616,7 +1616,7 @@ msgstr "preview"
 
 #: wizard_new/step2t.php:351
 msgid "отправить быстрый plain-text тест по адресу:"
-msgstr "send plain-text quick test at"
+msgstr "send plain-text quick test at:"
 
 #: wizard_new/step2t.php:354
 msgid "Не больше 3-х за раз и не больше 6-ти тестовых писем на созданную рассылку"
@@ -1829,7 +1829,7 @@ msgstr "Also:"
 
 #: wizard_new/step1a.php:379 wizard_new/step1a.php:652 wizard/step1a.php:308
 msgid "Отправить по существующией базе"
-msgstr "Sent to list:"
+msgstr "Sent to list"
 
 #: wizard_new/step1a.php:382 wizard_new/step1a.php:655 wizard/step1a.php:311
 msgid "Отложить отправку по существующией базе на указанное выше время"
@@ -1842,7 +1842,7 @@ msgid ""
 "указанное время."
 msgstr ""
 "If you choose this option, the emails will be sent not only to new subscribers, but also the old ones. The system will automatically keep "
-"track of the date of subscription. If you specify to send the newsletter in 1 day or more, those who have recently signed up will not  "
+"track of the date of subscription. If you specify to send the newsletter in 1 day or more, those who have recently signed up will not "
 "receive the email immidiately, but after a specified time."
 
 #: wizard_new/step1a.php:387 wizard_new/step1a.php:660 wizard/step1a.php:316
@@ -1997,11 +1997,11 @@ msgstr "Title"
 
 #: editor/index.php:127
 msgid "Title with text"
-msgstr "Simple tip text"
+msgstr "Title with text"
 
 #: editor/index.php:130
 msgid "List"
-msgstr "Your list"
+msgstr "List"
 
 #: editor/index.php:133
 msgid "Text"
@@ -2017,15 +2017,15 @@ msgstr "Divider"
 
 #: editor/index.php:142
 msgid "Image, title, text"
-msgstr "Simple tip text"
+msgstr "Image, title, text"
 
 #: editor/index.php:145
 msgid "Image with text"
-msgstr "Simple tip text"
+msgstr "Image with text"
 
 #: editor/index.php:148
 msgid "Images"
-msgstr "messages"
+msgstr "Images"
 
 #: editor/index.php:151
 msgid "Large images"
@@ -2053,15 +2053,15 @@ msgstr "Maps"
 
 #: editor/index.php:169
 msgid "Unsubscribe link"
-msgstr "unsubscribe"
+msgstr "Unsubscribe link"
 
 #: editor/index.php:359
 msgid "Email preview"
-msgstr "preview"
+msgstr "Email preview"
 
 #: editor/index.php:384 editor/index.php:495 templates/header_wizard.php:247
 msgid "Close"
-msgstr "closed"
+msgstr "Close"
 
 #: editor/index.php:393
 msgid "Images filemanager"
@@ -2073,7 +2073,7 @@ msgstr "Upload"
 
 #: editor/index.php:422
 msgid "Import URL"
-msgstr "Import"
+msgstr "Import URL"
 
 #: editor/index.php:439
 msgid "Folders"
@@ -2109,7 +2109,7 @@ msgstr "OK"
 
 #: editor/index.php:526
 msgid "Ок"
-msgstr "Ок"
+msgstr "Ok"
 
 #: wizard_new.php:167 wizard_new.php:194 wizard.php:36
 msgid "Не ваша рассылка!"
@@ -2126,19 +2126,19 @@ msgstr "Resend to friend"
 #: wizard_new.php:685 wizard_new.php:689 uploader/index.php:20 uploader/index.php:24 wizard/uploader/index.php:38
 #: wizard/uploader/index.php:42 wizard.php:523 wizard.php:527
 msgid "Файл "
-msgstr "File"
+msgstr "File "
 
 #: wizard_new.php:685 uploader/index.php:20 wizard/uploader/index.php:38 wizard.php:523
 msgid " слишком велик."
-msgstr "is too large."
+msgstr " is too large."
 
 #: wizard_new.php:687 uploader/index.php:22 wizard/uploader/index.php:40 wizard.php:525
 msgid "Не удалось сохранить файл "
-msgstr "Failed to save"
+msgstr "Failed to save "
 
 #: wizard_new.php:689 uploader/index.php:24 wizard/uploader/index.php:42 wizard.php:527
 msgid " уже существует."
-msgstr "already exists."
+msgstr " already exists."
 
 #: uploader/main.php:52 templates/lists/unsub.php:202 templates/lists/unsub.php:320 templates/lists/fields.php:143
 #: templates/lists/fields.php:300 builder/my_templates.php:29 templates_orig/lists/unsub.php:109 templates_orig/lists/fields.php:45
@@ -2168,7 +2168,7 @@ msgstr "Place these %TAGS% in your email to personalize every message for your r
 
 #: data/merge-tags.php:43
 msgid "Поля адресной базы"
-msgstr "list fields"
+msgstr "List fields"
 
 #: data/export.php:28 wizard_split/step4.php:115 templates/reports/summary.php:182 templates/reports/summary2.php:122
 #: templates/reports/splitreport.php:187 templates_orig/reports/summary.php:108 templates_orig/reports/splitreport.php:89
@@ -2199,7 +2199,7 @@ msgstr "Unsubscribers"
 
 #: data/export.php:28
 msgid "Кликов"
-msgstr "Clicks:"
+msgstr "Clicks"
 
 #: data/export.php:80 templates/account/history.php:39 templates_orig/account/history.php:29
 msgid "IP-адрес"
@@ -2211,7 +2211,7 @@ msgstr "Region"
 
 #: data/export.php:82
 msgid "Код региона"
-msgstr "Region Code:"
+msgstr "Region Code"
 
 #: data/export.php:119
 msgid "Дата отписания"
@@ -2219,7 +2219,7 @@ msgstr "Date of unsubscription"
 
 #: data/export.php:120 templates/lists/edit.php:289 templates_orig/lists/edit.php:125
 msgid "Причина отказа"
-msgstr "Bounce reason:"
+msgstr "Bounce reason"
 
 #: data/export.php:185 templates/lists/unisender.php:69 templates/lists/getresponse.php:58 templates/lists/mailchimp.php:70
 #: templates/lists/smartresponder.php:68 templates_orig/lists/unisender.php:67 templates_orig/lists/getresponse.php:58
@@ -2237,27 +2237,27 @@ msgstr "URL links"
 
 #: data/export.php:189 data/export.php:191 templates/reports/data.php:38 templates_orig/reports/data.php:38
 msgid "Кол-во кликов"
-msgstr "Total Clicks:"
+msgstr "Total Clicks"
 
 #: common/auth.php:114 common/auth.php:117 common/auth.php:168 common/auth.php:171
 msgid "На Ваш e-mail"
-msgstr "Not your email"
+msgstr "your email."
 
 #: common/auth.php:114
 msgid "выслано письмо с подтверждением регистрации, логином и паролем."
-msgstr "An email has been sent with registration confirmation, login and password."
+msgstr "An email has been sent with registration confirmation, login and password to"
 
 #: common/auth.php:117 common/auth.php:171
 msgid "выслать пароль не удалось, обратитесь в тех.поддержку."
-msgstr "failed to send the password, please contact support"
+msgstr "Failed to send the password, please contact support."
 
 #: common/auth.php:168
 msgid "повторно выслано письмо с подтверждением регистрации, логином и паролем."
-msgstr "An email has been sent again with registration confirmation, login and password."
+msgstr "An email has been sent again with registration confirmation, login and password to"
 
 #: common/auth.php:183
 msgid "Ваш e-mail или логин уже зарегистрирован в системе, попробуйте восстановление логина."
-msgstr "Your email ot login has already been registered in the system, try to recover your login"
+msgstr "Your email ot login has already been registered in the system, try to recover your login."
 
 #: common/auth.php:195
 msgid "Вы неверно ввели код на картинке."
@@ -2365,7 +2365,7 @@ msgstr "© 2011-2015 MaiWheel.co.uk"
 
 #: common/mh_new.php:65
 msgid ", All rights reserved."
-msgstr "All Rights Reserved."
+msgstr ", All Rights Reserved."
 
 #: common/mh_new.php:85
 msgid "Password recovery"
@@ -2433,7 +2433,7 @@ msgstr "just ignore it"
 
 #: common/mh.php:153
 msgid "Восстановление пароля"
-msgstr "Recover the password:"
+msgstr "Recover the password"
 
 #: common/mh.php:161
 msgid "Добрый день"
@@ -2457,11 +2457,11 @@ msgstr "Good afternoon! Your login:"
 
 #: common/php_functions.php:303
 msgid "Операционная система: "
-msgstr "Platform / OS :"
+msgstr "Platform/OS: "
 
 #: common/php_functions.php:303
 msgid ". Браузер: "
-msgstr "Browser:"
+msgstr "Browser: "
 
 #: common/php_functions.php:762 templates/autocampaigns/autocampaigns-list.php:122 templates_orig/autocampaigns/autocampaigns-list.php:122
 msgid "Сразу же"
@@ -2493,7 +2493,7 @@ msgstr "Updated"
 
 #: common/php_functions.php:1217 common/php_functions.php:1221
 msgid " Достигнут лимит по количеству активных подписчиков <a href='/?page=account&action=plans'>на вашем тарифном плане</a>."
-msgstr "You already have maximum number of active subscribers on your  <a href='/?page=account&action=plans'> tariff plan."
+msgstr "You already have maximum number of active subscribers on your <a href='/?page=account&action=plans'>tariff plan</a>."
 
 #: common/php_functions.php:1220 common/php_functions.php:1382
 msgid "Нет корректных получателей для импорта в эту базу."
@@ -2501,27 +2501,27 @@ msgstr "No correct recipients to be imported to this list."
 
 #: common/php_functions.php:1225 common/php_functions.php:1386
 msgid " Не прошло фильтры:"
-msgstr "Did not pass the filters"
+msgstr " Did not pass the filters:"
 
 #: common/php_functions.php:1226 common/php_functions.php:1387
 msgid " Дубликаты: "
-msgstr "Dublicates"
+msgstr " Dublicates: "
 
 #: common/php_functions.php:1227
 msgid " Ранее отписавшихся: "
-msgstr "Unsubscribed earlier"
+msgstr " Unsubscribed earlier: "
 
 #: common/php_functions.php:1228
 msgid " В черном списке: "
-msgstr "in blacklist "
+msgstr " In blacklist: "
 
 #: common/php_functions.php:1229
 msgid " Исправлено:"
-msgstr "Corrected:"
+msgstr " Corrected:"
 
 #: common/php_functions.php:1230
 msgid " Одноразовых email:"
-msgstr "Disposable email"
+msgstr " Disposable email:"
 
 #: common/php_functions.php:1261
 msgid "Укажите номер столбца с данными."
@@ -2577,7 +2577,7 @@ msgstr "You do not have address list with the id."
 
 #: common/errors.php:30
 msgid "Не ваш клиент!"
-msgstr "This is not your customer! "
+msgstr "This is not your customer!"
 
 #: common/errors.php:32
 msgid "Некорректное значение скидки."
@@ -2705,7 +2705,7 @@ msgstr "Forgot your password?"
 
 #: signin.php:123
 msgid "Do you remember? "
-msgstr "Do you remember?"
+msgstr "Do you remember? "
 
 #: signin.php:123
 msgid "Login here"
@@ -2743,7 +2743,7 @@ msgstr "correct"
 
 #: wizard/step5.php:271
 msgid "Тема письма:"
-msgstr "Email subject"
+msgstr "Email subject:"
 
 #: wizard/step5.php:288
 msgid "Ответы на письма будут приходить на адрес"
@@ -2841,7 +2841,7 @@ msgstr "Subject of the email"
 
 #: wizard/step4.php:49
 msgid "От кого письмо?"
-msgstr "From:"
+msgstr "From a letter?"
 
 #: wizard/step4.php:57 wizard_split/step4.php:111 templates/reports/summary.php:178 templates/reports/summary2.php:114
 #: templates/reports/splitreport.php:182 templates_orig/reports/summary.php:100 templates_orig/reports/splitreport.php:79
@@ -2854,7 +2854,7 @@ msgstr "Please enter the return address"
 
 #: wizard/step4.php:72
 msgid "Персонализация в поле \"Кому:\""
-msgstr "Personalization in the \"To:\""
+msgstr "Personalization in the field \"To:\""
 
 #: wizard/step4.php:77
 msgid "Задайте %ТЭГИ% для имени получателя"
@@ -2904,8 +2904,7 @@ msgstr "Track clicks in the plain-text versions"
 msgid ""
 "Отображается статистика переходов по всем ссылкам в текстовой версии письма с помощью замены всех ссылок на специальные отслеживающие URL."
 msgstr ""
-"Displays the clickthrough statistics for all the links in the text version of the email by replacing all references to the special "
-"tracking URL."
+"Displays the clickthrough statistics for all the links in the text version of the email by replacing all references to the special tracking URL."
 
 #: wizard/step4.php:131
 msgid "Добавить отслеживание в Google Analytics&trade;/Яндекс.Метрике"
@@ -2915,7 +2914,7 @@ msgstr "Add tracking to Google Analytics"
 msgid ""
 "Мониторинг трафика на ваш сайт из рассылок в популярных системах аналитики. Данные о посетителях, конверсиях и других параметрах посещения "
 "вашего сайта."
-msgstr "Traffic monitoring  in popular analytic systems. The data about visitors, clickthroughs and other  features ."
+msgstr "Traffic monitoring  in popular analytic systems. The data about visitors, clickthroughs and other features."
 
 #: wizard/step4.php:135
 msgid "заголовок для рассылки (будет отображаться в GA/ЯМ)"
@@ -2923,7 +2922,7 @@ msgstr "title of the campaign (will be displayed in Google Analytics)"
 
 #: wizard/step2.php:33
 msgid "HTML-код"
-msgstr "HTML Code"
+msgstr "HTML code"
 
 #: wizard/step2.php:34
 msgid "Персональные ссылки"
@@ -3093,7 +3092,7 @@ msgstr "Decrypting rules"
 #: wizard/action/send-test.php:132 templates/campaigns/send-test.php:128 templates/account/domain.php:43
 #: templates_orig/campaigns/send-test.php:128 templates_orig/account/domain.php:39
 msgid "Ошибка: "
-msgstr "Error:"
+msgstr "Error: "
 
 #: wizard/action/send-test.php:132 templates/campaigns/send-test.php:128 templates_orig/campaigns/send-test.php:128
 msgid "Попробуйте позже. Если ошибка будет повторяться - обратитесь в техническую поддержку по адресу "
@@ -3166,7 +3165,7 @@ msgstr "Several boxes should be separated with commas, but no more than 6 addres
 
 #: wizard/footer.php:58
 msgid "Счастливого пути, тестовое письмо!"
-msgstr "Bon voyage...test letter!"
+msgstr "Bon voyage... test letter!"
 
 #: wizard/footer.php:59
 msgid "Ваше тестовое письмо уже на пути к тестовым получателям"
@@ -3194,7 +3193,7 @@ msgstr "Schedule"
 
 #: wizard/footer.php:180
 msgid "Отправить сейчас"
-msgstr "Send Now"
+msgstr "Send now"
 
 #: wizard/footer.php:186 wizard/footer.php:187
 msgid "К следующему шагу:"
@@ -3214,7 +3213,7 @@ msgstr "Preparing for start"
 
 #: builder_2.0/proxy.php:84 builder_2.0/preview.php:123
 msgid " Чтобы больше никогда не получать наши рассылки перейдите по следующей ссылке: %ОТПИСАТЬСЯ%"
-msgstr " In order not to receive our newsletters anymore, click on the following link: %Unsubscribe%"
+msgstr " In order not to receive our newsletters anymore, click on the following link: %UNSUBSCRIBE%"
 
 #: builder_2.0/html_functions.php:33 builder_2.0/index.php:1100
 msgid "Задайте краткое описание содержимого письма"
@@ -3222,11 +3221,11 @@ msgstr "Give a short description of the letter contents"
 
 #: builder_2.0/html_functions.php:37 builder_2.0/index.php:1117
 msgid "Открыть письмо в браузере"
-msgstr "Open in browser "
+msgstr "Open in browser"
 
 #: builder_2.0/html_functions.php:497
 msgid "Это сообщение было отправлено на "
-msgstr "This message was sent to"
+msgstr "This message was sent to "
 
 #: builder_2.0/html_functions.php:497
 msgid "потому, что"
@@ -3246,7 +3245,7 @@ msgstr "In order to make sure that your emails are delivered to recepients"
 
 #: builder_2.0/html_functions.php:515 builder_2.0/index.php:1417
 msgid "добавьте"
-msgstr "add "
+msgstr "add"
 
 #: builder_2.0/html_functions.php:515 builder_2.0/index.php:1417
 msgid "наш адрес в адресную книгу."
@@ -3254,7 +3253,7 @@ msgstr "our address to the address book"
 
 #: builder_2.0/preview.php:55
 msgid "Онлайн-редактор"
-msgstr "Online-Editor "
+msgstr "Online-Editor"
 
 #: builder_2.0/preview.php:72
 msgid "Назад к редактированию"
@@ -3274,7 +3273,7 @@ msgstr "Email header"
 
 #: builder_2.0/index.php:57
 msgid "Вы уверены, что хотите загрузить этот шаблон? Вся информация о текущем будет уничтожена."
-msgstr "Are you sure you want to upload this template? All the current information will be deleted"
+msgstr "Are you sure you want to upload this template? All the current information will be deleted."
 
 #: builder_2.0/index.php:58
 msgid "Название дизайна:"
@@ -3282,7 +3281,7 @@ msgstr "Name of design:"
 
 #: builder_2.0/index.php:59
 msgid "Название шаблона:"
-msgstr "Please enter template name "
+msgstr "Please enter template name"
 
 #: builder_2.0/index.php:62
 msgid "Мой новый дизайн"
@@ -3323,7 +3322,7 @@ msgstr "Link:"
 #: builder_2.0/index.php:338 builder_2.0/index.php:387 builder_2.0/index.php:426 builder_2.0/index.php:457 builder_2.0/index.php:478
 #: builder_2.0/index.php:504
 msgid "Выравнивание:"
-msgstr "leveling"
+msgstr "Align:"
 
 #: builder_2.0/index.php:339 builder_2.0/index.php:388 builder_2.0/index.php:427 builder_2.0/index.php:458 builder_2.0/index.php:479
 #: builder_2.0/index.php:505
@@ -3341,11 +3340,11 @@ msgstr "right"
 
 #: builder_2.0/index.php:357
 msgid "Добавить картинку:"
-msgstr "Add image"
+msgstr "Add image:"
 
 #: builder_2.0/index.php:360
 msgid "Выбрать файл"
-msgstr "select a file"
+msgstr "Select a file"
 
 #: builder_2.0/index.php:367
 msgid "Картинка:"
@@ -3365,15 +3364,15 @@ msgstr "Set the frame"
 
 #: builder_2.0/index.php:392
 msgid "Положение:"
-msgstr "Location"
+msgstr "Location:"
 
 #: builder_2.0/index.php:393
 msgid "картинка сверху"
-msgstr "Image on top"
+msgstr "image on top"
 
 #: builder_2.0/index.php:393
 msgid "картинка снизу"
-msgstr "Image at the bottom"
+msgstr "image at the bottom"
 
 #: builder_2.0/index.php:473
 msgid "Слоган:"
@@ -3385,20 +3384,20 @@ msgstr "Video URL:"
 
 #: builder_2.0/index.php:489
 msgid "Cсылка (если есть):"
-msgstr "Link (if any)"
+msgstr "Link (if exist):"
 
 #: builder_2.0/index.php:512
 msgid "Фон:"
-msgstr "Background"
+msgstr "Background:"
 
 #: builder_2.0/index.php:513
 msgid "Задать фон"
-msgstr "set the background"
+msgstr "Set the background"
 
 #: builder_2.0/index.php:515 builder/index.php:119 builder/index.php:122 builder/index.php:125 builder/index.php:127 builder/index.php:129
 #: builder/index.php:131
 msgid "Шрифт:"
-msgstr "Font"
+msgstr "Font:"
 
 #: builder_2.0/index.php:516
 msgid "Задать шрифт"
@@ -3457,7 +3456,7 @@ msgstr "Text"
 #: builder_2.0/index.php:585 builder/templates_1column.php:15 builder/templates_1column.php:16 builder/templates_1column.php:17
 #: builder/templates_1column.php:18 builder/templates_1column.php:19 builder/templates_1column.php:20 builder/templates_1column.php:21
 #: builder/templates_1column.php:22 builder/templates_1column.php:23 builder/templates_1column.php:24 builder/index.php:131
-msgid "Картинка"
+msgid "Картинка:"
 msgstr "Image:"
 
 #: builder_2.0/index.php:587
@@ -3470,7 +3469,7 @@ msgstr "Image/text"
 
 #: builder_2.0/index.php:590 builder_2.0/index.php:916 builder/index.php:131
 msgid "Разделитель"
-msgstr "Separator"
+msgstr "Divider"
 
 #: builder_2.0/index.php:591
 msgid "Кнопка"
@@ -3749,7 +3748,7 @@ msgstr "consent information"
 #: builder_2.0/index.php:1593 builder_2.0/index.php:1608 builder/my_templates.php:34 builder/index.php:135 builder/index.php:137
 #: builder/index.php:139 builder/index.php:141
 msgid "Отмена"
-msgstr "cancel "
+msgstr "Cancel"
 
 #: builder_2.0/index.php:1598
 msgid ""
@@ -3757,7 +3756,7 @@ msgid ""
 ">Например, «Вы получили это письмо, потому что подписались на рассылку на нашем сайте www.адрес сайта.ru»."
 msgstr ""
 "The campaigns must contain information about where the user address was taken  from and his/her consent to receive the newsletter from you.<br /><br /"
-">For example, You are receiving this email because you have subscribed to our newsletters on our website www.website.co.uk"
+">For example, «You are receiving this email because you have subscribed to our newsletters on our website www.website.co.uk»"
 
 #: builder_2.0/index.php:1605 builder_2.0/index.php:1606
 msgid "Галерея фоновых изображений"
@@ -3769,7 +3768,7 @@ msgstr "General backgrounds"
 
 #: builder_2.0/index.php:1613
 msgid "Мои фоны"
-msgstr "my cbackgrounds"
+msgstr "My backgrounds"
 
 #: builder_2.0/index.php:1643
 msgid "Анимированные фоны"
@@ -3822,7 +3821,7 @@ msgstr "Confirm your settings and then send"
 
 #: builder_2.0/action/add.php:27
 msgid "Текст кнопки"
-msgstr " button text"
+msgstr "Button text"
 
 #: builder_2.0/action/add.php:28
 msgid "Текст обтекает картинку"
@@ -3830,11 +3829,11 @@ msgstr "The text wraps around the image"
 
 #: sms_auth.php:38 templates/account/save-number.php:20
 msgid "Код для подтверждения: "
-msgstr "Code for confirmation:"
+msgstr "Code for confirmation: "
 
 #: sms_auth.php:52 templates/account/save-number.php:39
 msgid "Не удалось отправить смс: "
-msgstr "Sending failed"
+msgstr "Sending failed: "
 
 #: sms_auth.php:61 sms_auth.php:63 sms_auth.php:73
 msgid "Дополнительная авторизация через SMS"
@@ -3866,11 +3865,11 @@ msgstr "send the code for checking"
 
 #: sms_auth.php:85
 msgid " Модуль двухфакторной авторизации введен в строй недавно и находится в стадии бета-тестирования."
-msgstr "Two-factor authorization module was put into operation recently and is in beta stage. If you have not received the SMS-contact"
+msgstr "Two-factor authorization module was put into operation recently and is in beta stage."
 
 #: sms_auth.php:87
 msgid "Если смс не пришла вам в течение 5 минут - "
-msgstr "If SMS has not reached you within 5 minutes"
+msgstr "If SMS has not reached you within 5 minutes - "
 
 #: sms_auth.php:87
 msgid "нажмите сюда"
@@ -3878,11 +3877,11 @@ msgstr "click here"
 
 #: sms_auth.php:87
 msgid " для повторной отправки."
-msgstr "to repeat the sending"
+msgstr " to repeat the sending."
 
 #: sms_auth.php:89
 msgid "Вам была отправлена повторная смс. Если в случае повторной отправки смс все равно недоставилась - напишите на "
-msgstr "Another sms has been sent to you. If  SMS still has not reached you - contact us"
+msgstr "Another sms has been sent to you. If SMS still has not reached you - contact us"
 
 #: sms_auth.php:89
 msgid " и мы обязательно проверим и при необходимости отключим ее!"
@@ -4034,15 +4033,15 @@ msgstr "list"
 
 #: classes/lists.php:208
 msgid "Первый"
-msgstr "first"
+msgstr "First"
 
 #: classes/lists.php:209
 msgid "Второй"
-msgstr "second"
+msgstr "Second"
 
 #: classes/lists.php:210
 msgid "Третий"
-msgstr "third"
+msgstr "Third"
 
 #: classes/lists.php:221 templates/lists/fields.php:182 templates/lists/fields.php:339 templates_orig/lists/fields.php:84
 msgid "ШАБЛОН"
@@ -4267,7 +4266,7 @@ msgstr "B-test"
 #: templates/reports/splitreport.php:317 templates_orig/reports/domains_data.php:33 templates_orig/reports/summary_base.php:193
 #: templates_orig/reports/summary.php:217 templates_orig/reports/splitreport.php:149
 msgid "Возвраты"
-msgstr "bounces"
+msgstr "Bounces"
 
 #: wizard_split/step4.php:214 templates/reports/summary_base.php:279 templates/reports/summary_base.php:624 templates/reports/summary.php:380
 #: templates/reports/summary2.php:268 templates/reports/splitreport.php:321 templates_orig/reports/summary_base.php:230
@@ -4395,7 +4394,7 @@ msgstr "A/B campaign builder"
 
 #: wizard_split/geo.php:11
 msgid "Выберете регионы:"
-msgstr "Select regions"
+msgstr "Select regions:"
 
 #: wizard_split/geo.php:41 templates/autocampaigns/autocampaigns.php:154
 msgid "OK"
@@ -4403,7 +4402,7 @@ msgstr "OK"
 
 #: wizard_split/step1.php:1
 msgid "Test part can`t take more than 80%!"
-msgstr "'Test part can`t take more than 80%! \" "
+msgstr "Test part can`t take more than 80%!"
 
 #: wizard_split/step1.php:1
 msgid "Вы должны выбрать условие теста!"
@@ -4542,7 +4541,7 @@ msgstr "Log out"
 
 #: templates/header_wizard.php:365 templates/header.php:320 templates/header_wizard_split.php:236
 msgid "Username &amp; Password"
-msgstr "Username; Password"
+msgstr "Username &amp; Password"
 
 #: templates/header_wizard.php:367 templates/header.php:322 templates/header_wizard_split.php:238
 msgid "Domain settings"
@@ -4734,7 +4733,7 @@ msgstr "Reports"
 #: templates/reports/activity.php:42 templates/reports/summary_base.php:62 templates/reports/summary.php:41 templates/reports/summary.php:163
 #: templates/reports/summary2.php:105 templates/reports/splitreport.php:161
 msgid "All lists"
-msgstr "to the list"
+msgstr "All lists"
 
 #: templates/reports/activity.php:43 templates/reports/summary_base.php:63 templates/reports/summary_base.php:436
 #: templates/reports/summary.php:44 templates_orig/reports/summary_base.php:33
@@ -4785,13 +4784,13 @@ msgstr "The main campaign:"
 #: templates/reports/activity.php:96 templates/reports/summary.php:100 templates/reports/summary2.php:76 templates/reports/splitreport.php:92
 #: templates_orig/reports/activity.php:51 templates_orig/reports/summary.php:66 templates_orig/reports/splitreport.php:43
 msgid " (победитель)"
-msgstr "(winner)"
+msgstr " (winner)"
 
 #: templates/reports/activity.php:103 templates/reports/summary.php:106 templates/reports/summary2.php:74
 #: templates/reports/splitreport.php:99 templates_orig/reports/activity.php:49 templates_orig/reports/summary.php:64
 #: templates_orig/reports/splitreport.php:41
 msgid "Тестовые части:"
-msgstr "Test parts"
+msgstr "Test parts:"
 
 #: templates/reports/activity.php:114 templates/reports/summary.php:134 templates/reports/splitreport.php:110
 msgid "TEST STATISTICS"
@@ -4903,7 +4902,7 @@ msgstr "Sent campaigns:"
 
 #: templates/reports/summary_base.php:102 templates/reports/summary_base.php:459 templates_orig/reports/summary_base.php:67
 msgid "Дата создания:"
-msgstr "Create Date:"
+msgstr "Creating Date:"
 
 #: templates/reports/summary_base.php:109 templates/reports/summary_base.php:440 templates/reports/summary.php:196
 #: templates/reports/summary2.php:45 templates/reports/google.php:31 templates_orig/reports/summary_base.php:37
@@ -12436,11 +12435,11 @@ msgstr ""
 
 #: signup_success.php:69
 msgid "Inbox preview"
-msgstr "preview"
+msgstr "Inbox preview"
 
 #: signup_success.php:69
 msgid "Spam Doctor</a> and can attach files up to 5Mb to any campaign."
-msgstr "Spam Doctor and can attach files up to 5 MB to any campaign."
+msgstr "Spam Doctor</a> and can attach files up to 5 MB to any campaign."
 
 #: signup_success.php:70
 msgid "Show me plans"
