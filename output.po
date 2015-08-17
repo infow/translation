@@ -26,11 +26,11 @@ msgstr "Untitled"
 
 #: wizard_new/step3.php:169 wizard_new/step3.php:378 wizard/step3.php:35 wizard_split/step2.php:211 wizard_split/step2.php:401
 msgid "Отправить по всем базам"
-msgstr "Sent to all lists"
+msgstr "Send to all lists"
 
 #: wizard_new/step3.php:169 wizard_new/step3.php:378 wizard/step3.php:35 wizard_split/step2.php:211 wizard_split/step2.php:401
 msgid "Выбор баз"
-msgstr "Select list"
+msgstr "Select  a list"
 
 #: wizard_new/step3.php:170 wizard_new/step3.php:377 wizard_split/step2.php:212 wizard_split/step2.php:400
 msgid "по какой адресной базе вы хотите произвести рассылку?"
@@ -92,7 +92,7 @@ msgstr "Builder"
 
 #: wizard_new/step3.php:364 wizard_split/step2.php:387
 msgid "Вы не можете создать рассылку, пока у вас нет ни одной адресной базы!"
-msgstr "You can not create a campaign, unless you have no list!"
+msgstr "You can not create a campaign, unless you have a list!"
 
 #: wizard_new/step3.php:369 wizard_new/step4.php:279 wizard_new/step1a.php:433 wizard/step1a.php:89 wizard_split/step2.php:392
 #: templates/header_wizard.php:542
@@ -141,7 +141,7 @@ msgstr "send a test email to the following address:"
 
 #: wizard_new/step5.php:86 wizard_new/step2t.php:354
 msgid "Если хотите отправить несколько тестовых писем, то разделяйте адрес через запятую."
-msgstr "If you want to send some test emails, separate each address with a comma."
+msgstr "If you want to send several test emails, separate each address with a comma."
 
 #: wizard_new/step5.php:86
 msgid "Не больше 6 за раз и не больше 12-ти тестовых писем на созданную рассылку"
@@ -168,7 +168,7 @@ msgid ""
 "Одно или несколько писем было отправлено на ящики, которые расположены на том же домене, что и отправитель. Некоторые провайдеры блочат "
 "такие письма самому себе. Если что - проверьте папку \"Спам\"."
 msgstr ""
-"One or more emails were sent to the mail boxes which are on the same domain as the sender. Some providers could block such emails. In this "
+"One or several emails were sent to the email addresses which are on the same domain with the sender. Some providers could block such emails. In this "
 "case check \"Spam\" folder"
 
 #: wizard_new/step5.php:96
@@ -187,12 +187,12 @@ msgstr "list"
 #: wizard_new/step5.php:156 wizard/step5.php:198 templates/autocampaigns/autocampaigns-list.php:60
 #: templates_orig/autocampaigns/autocampaigns-list.php:61
 msgid "в День Рождения после "
-msgstr "After birthday"
+msgstr "On birthday after"
 
 #: wizard_new/step5.php:158 common/php_functions.php:759 wizard/step5.php:200 templates/autocampaigns/autocampaigns-list.php:62
 #: templates_orig/autocampaigns/autocampaigns-list.php:63
 msgid "за "
-msgstr "on"
+msgstr "for"
 
 #: wizard_new/step5.php:158 wizard/step5.php:200
 msgid " до Дня Рождения после "
@@ -205,7 +205,7 @@ msgstr "via"
 
 #: wizard_new/step5.php:160 wizard/step5.php:202
 msgid " после Дня Рождения после "
-msgstr "After birthday"
+msgstr "After birthday after"
 
 #: wizard_new/step5.php:173 wizard/step5.php:215
 msgid " подписки через форму"
@@ -213,7 +213,7 @@ msgstr "subscription via form"
 
 #: wizard_new/step5.php:174 wizard/step5.php:216
 msgid " ручного добавления"
-msgstr "manually add"
+msgstr "adding manually"
 
 #: wizard_new/step5.php:175 wizard/step5.php:217
 msgid " импорта базы"
@@ -221,19 +221,19 @@ msgstr "list import"
 
 #: wizard_new/step5.php:178 wizard/step5.php:220
 msgid "измененния доп. полей"
-msgstr "Change additional fileds"
+msgstr "Change additional fields"
 
 #: wizard_new/step5.php:186 wizard/step5.php:228
 msgid "открытия рассылок"
-msgstr "Opened"
+msgstr "Opened newsletters"
 
 #: wizard_new/step5.php:187 wizard/step5.php:229
 msgid "перехода по ссылкам из рассылок"
-msgstr "links from campaigns"
+msgstr "campaign clickthroughs"
 
 #: wizard_new/step5.php:188 wizard/step5.php:230
 msgid "перехода по ссылкам из рассылки"
-msgstr "links from the campaign"
+msgstr "campaign clickthroughs"
 
 #: wizard_new/step5.php:189 wizard/step5.php:231
 msgid "Мы будем отправлять ваши письма"
@@ -249,7 +249,7 @@ msgstr "new"
 
 #: wizard_new/step5.php:190 wizard/step5.php:232
 msgid "подписчикам из адресных баз:"
-msgstr "subscribers of lists:"
+msgstr "subscribers from lists:"
 
 #: wizard_new/step5.php:190 wizard_new/step5.php:215 wizard_new/step5.php:656 wizard/step5.php:232 wizard/step5.php:255 wizard/footer.php:229
 #: wizard_split/step3.php:116
@@ -274,7 +274,7 @@ msgstr "selected links:"
 
 #: wizard_new/step5.php:213 wizard/step5.php:255
 msgid "Мы отправим ваши письма по"
-msgstr "We will send your emails to"
+msgstr "We will send your emails using"
 
 #: wizard_new/step5.php:213 wizard/step5.php:255
 msgid "сегментам баз:"
@@ -290,11 +290,11 @@ msgstr "recipients"
 
 #: wizard_new/step5.php:224
 msgid "Рекомендуемое время отправки письма по этой базе:"
-msgstr "Recommended time to send an email on this list:"
+msgstr "Recommended time to send an email using this list:"
 
 #: wizard_new/step5.php:228 wizard/step5.php:257
 msgid "Вы не задали адресную базу получателей."
-msgstr "You have not set the list of recipients."
+msgstr "You have not set a list of recipients."
 
 #: wizard_new/step5.php:234 wizard_new/step5.php:255 wizard_new/step5.php:285 wizard_new/step5.php:315 wizard_new/step5.php:348
 #: wizard_new/step5.php:368 wizard_new/step5.php:428 wizard/step5.php:261 wizard/step5.php:276 wizard/step5.php:292 wizard/step5.php:318
@@ -309,7 +309,7 @@ msgstr "Subject line:"
 
 #: wizard_new/step5.php:251 wizard/step5.php:273
 msgid "Вы не задали тему сообщения."
-msgstr "You did not specify a subject."
+msgstr "You did not select a subject."
 
 #: wizard_new/step5.php:276 wizard/step5.php:286 wizard_split/step3.php:38 wizard_split/step3.php:72 templates/campaigns/preview.php:114
 #: templates_orig/campaigns/preview.php:114
@@ -318,7 +318,7 @@ msgstr "Reply To:"
 
 #: wizard_new/step5.php:279
 msgid "Все ответы на ваши письма будут уходить на адрес"
-msgstr "All the answers to your emails will sent to the address"
+msgstr "All the answers to your emails will be sent to the address"
 
 #: wizard_new/step5.php:280 wizard/step5.php:289
 msgid "Не задано имя отправителя"
@@ -350,11 +350,11 @@ msgstr "analytics"
 
 #: wizard_new/step5.php:308 wizard/step5.php:311
 msgid "При отправке только plain-text версии письма статистики открываний и переходов по ссылкам недоступны."
-msgstr "If you send only plain-text version of the email, statistics openings and clicks are unavailable."
+msgstr "If you send only a plain-text version of the email, statistics openings and clicks are unavailable."
 
 #: wizard_new/step5.php:310 wizard/step5.php:313
 msgid "Вы выбрали "
-msgstr "You chose:"
+msgstr "You selected:"
 
 #: wizard_new/step5.php:310 wizard/step5.php:313
 msgid "Никаких аналитических функций вы не подключили"
@@ -390,7 +390,7 @@ msgstr "You have not created html-version of the email. Only plain-text-version 
 
 #: wizard_new/step5.php:344 wizard/step5.php:342
 msgid "Вы не создали письмо."
-msgstr "You have not created email."
+msgstr "You have not created an email."
 
 #: wizard_new/step5.php:362 wizard/step5.php:355
 msgid "Текстовая версия письма:"
@@ -418,7 +418,7 @@ msgstr "Get recommendations on correction"
 
 #: wizard_new/step5.php:388
 msgid "проверка"
-msgstr " check"
+msgstr "check"
 
 #: wizard_new/step5.php:407 wizard/step5.php:90
 msgid " в html-версию письма"
@@ -466,7 +466,7 @@ msgstr "various files to the campaign."
 
 #: wizard_new/step5.php:450
 msgid " [доступно только при оплате месячного тарифа или покупке писем]"
-msgstr "[available only if you pay monthly or purchase of emails]"
+msgstr "[available only if you pay for a monthly tarriff or purchase of emails]"
 
 #: wizard_new/step5.php:456 templates/reports/summary_base.php:455 templates/reports/summary2.php:97
 #: templates/autocampaigns/autocampaigns-list.php:48 templates/campaigns/campaigns-list.php:72 templates/lists/members.php:400
@@ -554,7 +554,7 @@ msgstr "in drafts"
 
 #: wizard_new/step5.php:503
 msgid "в архив"
-msgstr "archive"
+msgstr "to archive"
 
 #: wizard_new/step5.php:505 wizard_new/save_template.php:16 wizard/action/save_template.php:16 templates/campaigns/fix-info.php:87
 #: templates/account/contact.php:209 templates/account/sms-auth.php:76 templates/account/rights.php:105 templates/account/rights.php:122
